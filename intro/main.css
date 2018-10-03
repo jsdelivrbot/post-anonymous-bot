@@ -6,6 +6,8 @@ html { background: url(background.png) no-repeat center center fixed; -webkit-ba
 
 body
 {
+    overflow: hidden;
+    
     /*가로 세로 가운데 정렬*/
     color: white;
     font-family: 'NanumSquare', sans-serif;
@@ -22,16 +24,38 @@ body
 
 }
 
+footer{
+    text-align: right;
+    transform: translateY(850%) translateX(270%);
+}
+
 
 .title
 {
-    font-size : 7vw;
-    font-style: 
+    font-size : 500%;
+    font-weight: bold;
 }
 .subtitle
 {
-    font-size : 1.6vw;
+    font-size : 150%;
+    font-weight: lighter;
+    
 }
+a:link{text-decoration: none}
+a {color: white}
+     
+
+.button
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(120%);
+    
+    font-size:150%;
+
+}
+
 
 /* Font Type */
 /*
