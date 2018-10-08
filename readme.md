@@ -1,5 +1,5 @@
 ﻿익명 게시판 대나무숲 봇입니다.
- https://tnsgud9.github.io/soonhyung_web/
+ https://tnsgud9.github.io/post-anonymous-bot/
 =============
 <h1>취지</h1>
 소셜미디어에 존재하는 대나무숲(익명으로 전해드립니다.)들은 대부분 관리자의 의해 익명글이 올라가고 있음.
