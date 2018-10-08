@@ -2,32 +2,55 @@
 
 @import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
 
-html { background: url(background.png) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+html 
+{
+    background: url(/intro/background.png) no-repeat center center fixed; background-size: cover;
+    
+    margin: 0px;
+    overflow: hidden;
+}
 
 body
 {
-    overflow: hidden;
     
-    /*가로 세로 가운데 정렬*/
     color: white;
     font-family: 'NanumSquare', sans-serif;
+
     text-align: center;
-    display: table;
-    margin-left: auto; margin-right: auto; margin: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
 
 
-
-
+    
 }
+
 
 footer{
+
+    position:absolute;
     text-align: right;
-    transform: translateY(850%) translateX(270%);
+    bottom:0;
+    width:99%;
+    height: 3%
 }
+
+
+.central
+{
+    position: static;
+    margin-top: 17%;
+    transition: all 1s;
+    
+}
+
+
+.button{
+    position: static;
+    transform: translateY(-220%);
+    font-size: 170%;
+}
+
+
+
+
 
 
 .title
@@ -37,15 +60,20 @@ footer{
 }
 .subtitle
 {
+    
+    padding-top: ;
     font-size : 150%;
     font-weight: lighter;
     
 }
 a:link{text-decoration: none}
 a {color: white}
+
+
+
      
 
-.button
+/*.button
 {
     position: absolute;
     top: 50%;
@@ -54,7 +82,7 @@ a {color: white}
     
     font-size:150%;
 
-}
+}*/
 
 
 /* Font Type */
