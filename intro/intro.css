@@ -4,13 +4,16 @@
 
 html 
 {
+    width:100%; 
+    height:100%; 
     background: url(background.png) no-repeat center center fixed; background-size: cover;
-    
     overflow: hidden;
+    background-color: black;
 }
 
 body
 {
+    margin-top: 20%;
     color: white;
     font-family: 'NanumSquare', sans-serif;
     text-align: center;
@@ -33,8 +36,6 @@ footer{
 
 .central
 {
-    margin-top: 15%;
-    transition: all 1s;
 
 }
 
