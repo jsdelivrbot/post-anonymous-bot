@@ -6,21 +6,19 @@ html
 {
     background: url(background.png) no-repeat center center fixed; background-size: cover;
     
-    margin: 0px;
     overflow: hidden;
 }
 
 body
 {
-    
     color: white;
     font-family: 'NanumSquare', sans-serif;
-
     text-align: center;
-
-
+    
     
 }
+
+
 
 
 footer{
@@ -35,15 +33,14 @@ footer{
 
 .central
 {
-    position: static;
-    margin-top: 17%;
+    margin-top: 15%;
     transition: all 1s;
-    
+
 }
 
 
 .button{
-    position: static;
+    position: a;
     transform: translateY(-220%);
     font-size: 170%;
 }
@@ -61,7 +58,6 @@ footer{
 .subtitle
 {
     
-    padding-top: ;
     font-size : 150%;
     font-weight: lighter;
     
